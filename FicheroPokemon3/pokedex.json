@@ -1,0 +1,40 @@
+{
+    "pokemons": [
+        {
+            "info": "bulbasaur",
+            "Tipo": [
+                "planta",
+                " veneno"
+            ],
+            "ps": 16,
+            "velocidad": 18,
+            "ataque": 10,
+            "defensa": 2,
+            "ataqueEspecial": 2,
+            "defensaEspecial": 0,
+            "numPokedex": 1
+        },
+        {
+            "info": "charmander",
+            "Tipo": "fuego",
+            "ps": 3,
+            "velocidad": 24,
+            "ataque": 30,
+            "defensa": 4,
+            "ataqueEspecial": 14,
+            "defensaEspecial": 23,
+            "numPokedex": 4
+        },
+        {
+            "info": "squirtle",
+            "Tipo": "agua",
+            "ps": 2,
+            "velocidad": 7,
+            "ataque": 22,
+            "defensa": 17,
+            "ataqueEspecial": 24,
+            "defensaEspecial": 5,
+            "numPokedex": 7
+        }
+    ]
+}
