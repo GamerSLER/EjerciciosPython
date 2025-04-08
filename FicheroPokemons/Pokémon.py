@@ -60,7 +60,7 @@ while(cont):
 
 
 
-
+#Mal hecho y no terminado
 
 """
 numPokedex int

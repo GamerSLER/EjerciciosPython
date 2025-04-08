@@ -45,3 +45,5 @@ while continuar:
 
 pokedex["pokemons"] = pokemons
 guardarJSON(pokedex, "pokedex.json")
+
+#Ejemplo del profesor
