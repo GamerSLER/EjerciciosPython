@@ -8,6 +8,8 @@ try:
     contenido = requests.get(url)
     pokemon = contenido.json()
     nombre = pokemon["name"]
+    numPokedex = pokemon["id"]
+
 
     def habilidadSecreta():
         habilidades = []
@@ -29,5 +31,6 @@ try:
     print(habilidades)
     print(habilidadesEscondidas)
     print(tipoPokemon())
+    print(numPokedex)
 except:
     print("ERROR")
