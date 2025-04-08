@@ -5,7 +5,6 @@ import requests
 url = "https://thesimpsonsquoteapi.glitch.me/quotes"
 contenido = requests.get(url)
 quote = contenido.json()
-
 frase = quote[0]["quote"]
 nombrePersonaje = quote[0]["character"]
 print(frase)
@@ -39,8 +38,6 @@ while (continuar):
             continuar = False
 
         print(f"{esconderNombre(nombrePersonaje)}")
-
-
     else:
         print("Haz adivinado.")
         continuar = False
