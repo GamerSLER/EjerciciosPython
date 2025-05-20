@@ -1,0 +1,20 @@
+[
+    {
+        "Receta": "tortilla",
+        "Cantidad": 3,
+        "Ingredientes": [
+            {
+                "Nombre": "fabio",
+                "Cantidad": 3
+            },
+            {
+                "Nombre": "sal",
+                "Cantidad": 4
+            },
+            {
+                "Nombre": "pimienta",
+                "Cantidad": 412
+            }
+        ]
+    }
+]

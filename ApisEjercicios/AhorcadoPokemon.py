@@ -1,5 +1,3 @@
-import os
-from platform import system
 from random import randint
 import requests
 

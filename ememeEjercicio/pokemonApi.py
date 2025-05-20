@@ -10,7 +10,7 @@ peso= pokemon["weight"]
 altura = pokemon["height"]
 entrada = pokemon["id"]
 
-print(nombre)
+#print(nombre)
 def conseguirDescripcion():
     descripciones = []
     especie = requests.get(pokemon["species"]["url"]).json()
@@ -52,11 +52,11 @@ def pistaLongitud(nombre):
         longitud += len(separado[i])
     return longitud
 
-print(f"Adivina el pokemon sabiendo la siguiente información.\nSu nombre tiene {pistaLongitud(nombre)} letras")
+print(f"Adivina el pokemon sabiendo la siguiente información.\nEl nombre del pokemon tiene {pistaLongitud(nombre)} letras")
 incorrecto = True
 for i in range(8):
     if incorrecto:
-        if input(f"Intento {i + 1} ").lower() == nombre:
+        if input(f"Intento {i + 1} --> ").lower() == nombre:
             print("Enhorabuena")
             incorrecto = False
         else:
